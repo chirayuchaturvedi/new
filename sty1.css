@@ -1,0 +1,17 @@
+.abc{
+    background-color: aqua;
+    height: 400px;
+    width: 100%;
+    animation-name: nm;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes nm{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(400px);
+    }
+}
